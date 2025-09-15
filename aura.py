@@ -7,7 +7,7 @@ import pandas as pd
 
 sys.path.append(os.path.abspath("."))
 
-from RTStructure.get_rt import make_rt
+from RTDICOM.get_rt import make_rt
 from radiomics import simulate_pyradiomics
 
 class AutoRadiomicsApp:
